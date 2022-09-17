@@ -7,4 +7,4 @@ app.get("/", (req, res) => {
   res.redirect("https://mailchi.mp/e1d053fc2493/world-wide-handball");
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
