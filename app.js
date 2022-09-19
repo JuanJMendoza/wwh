@@ -4,7 +4,9 @@ const path = require("path");
 const PORT = process.env.PORT || 3001;
 app.get("/", (req, res) => {
   //   res.sendFile(path.join(__dirname, "/index.html"));
-  res.redirect("https://mailchi.mp/e1d053fc2493/world-wide-handball");
+  res
+    .status(301)
+    .redirect("https://mailchi.mp/e1d053fc2493/world-wide-handball");
 });
 
 app.listen(PORT, () => {
