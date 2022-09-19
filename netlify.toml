@@ -1,6 +1,6 @@
 # A redirect rule with many of the supported properties
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "https://mailchi.mp/e1d053fc2493/world-wide-handball"
 
   # The default HTTP status code is 301, but you can
