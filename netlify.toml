@@ -12,3 +12,5 @@
   # Setting `force` to `true` will make the redirect rule
   # take precedence over any existing files.
   force = true
+
+  query = {path = ":path"}
