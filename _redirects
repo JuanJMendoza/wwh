@@ -1,3 +1,4 @@
 # Put this in \_redirects in your publish directory
 
-https://worldwidehandball.netlify.app/* https://mailchi.mp/e1d053fc2493/world-wide-handball 301!
+https://worldwidehandball.netlify.app/_ https://mailchi.mp/e1d053fc2493/world-wide-handball 301!
+https://worldwidehandball.com/_ https://mailchi.mp/e1d053fc2493/world-wide-handball 301!
